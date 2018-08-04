@@ -27,6 +27,9 @@ public class _01 {
             char temp = chars[i];
             chars[i] = chars[chars.length - 1 - i];
             chars[chars.length - 1 - i] = temp;
+
+
+
         }
         String str = new String(chars);
         return str;
