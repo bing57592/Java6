@@ -1,5 +1,8 @@
 package com.ysu.leetcode.primary.string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
  * created by bing57592
@@ -7,9 +10,10 @@ package com.ysu.leetcode.primary.string;
  */
 public class _03 {
     public static void main(String[] args) {
-        String s1 = "aadadaad";
+        String s1 = "dddccdbba";
         int i = code_1(s1);
-        System.out.println(i);
+        int i1 = code_2(s1);
+        System.out.println(i1);
     }
 
     public static int code_1(String s) {
@@ -28,6 +32,36 @@ public class _03 {
                 }
             }
         }
+        return -1;
+    }
+
+    public static int code_2(String s) {
+        char[] chars = s.toCharArray();
+        char lables[] = new char[chars.length];
+        int index = 0;
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        for (int i = 0; i < chars.length; i++) {
+            Integer integer = map.get(chars[i]);
+            if (integer == null) {
+                lables[index++] = chars[i];
+                map.put(chars[i], 1);
+            } else {
+                map.put(chars[i], ++integer);
+            }
+        }
+        char flag = 0;
+        for (int i = 0; i < index; i++) {
+            if (map.get(lables[i]) == 1) {
+                flag = lables[i];
+                break;
+            }
+        }
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == flag) {
+                return i;
+            }
+        }
+
         return -1;
     }
 }
