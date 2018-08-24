@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c852a683-af0c-4dae-b7f3-33b0692bed5f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lombok_1_16_16.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lombok_1_16_16__2_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_03_linkedlist/_01.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_01.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_01.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_02.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_02.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_03.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_03.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_04.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_04.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_05.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_05.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_06.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_06.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_07.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_07.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_08.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_08.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_09.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_09.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_10.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_10.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/array/_11.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_01_array/_11.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_01.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_01.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_02.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_02.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_03.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_03.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_04.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_04.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_05.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_05.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_06.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_06.java" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/string/_07.java" afterPath="$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_02_string/_07.java" />
-      <change beforePath="$PROJECT_DIR$/java6.iml" afterPath="$PROJECT_DIR$/java6.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_01.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_02.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_03.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_04.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_05.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_06.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_07.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_08.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_09.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_10.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/array/_11.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/string/_01.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/string/_02.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ysu/leetcode/primary/string/_03.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +22,8 @@
       <file leaf-file-name="_02.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_03_linkedlist/_02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="205">
+              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -575,7 +537,7 @@
       <workItem from="1534241779030" duration="3018000" />
       <workItem from="1534319129400" duration="3386000" />
       <workItem from="1534768147771" duration="151000" />
-      <workItem from="1535080229722" duration="2952000" />
+      <workItem from="1535080229722" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1533357351483</created>
@@ -612,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534242749355</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="这两道题都放弃了">
+      <created>1535088931995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535088931995</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,7 +617,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61385000" />
+    <option name="totallyTimeSpent" value="61475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1013,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/ysu/leetcode/primary/_03_linkedlist/_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="205">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
