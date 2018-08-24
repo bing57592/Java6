@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.array;
+package com.ysu.leetcode.primary._01_array;
 
 /**
  * TODO: 这个有点没思路啊

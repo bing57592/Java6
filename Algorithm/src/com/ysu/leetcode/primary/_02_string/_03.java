@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.string;
+package com.ysu.leetcode.primary._02_string;
 
 import java.util.HashMap;
 import java.util.Map;

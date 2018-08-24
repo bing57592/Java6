@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.array;
+package com.ysu.leetcode.primary._01_array;
 
 /**
  * 给定一个整数数组，判断是否存在重复元素。

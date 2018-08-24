@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.array;
+package com.ysu.leetcode.primary._01_array;
 
 /**
  * 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。

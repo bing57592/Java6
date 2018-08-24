@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.string;
+package com.ysu.leetcode.primary._02_string;
 
 /**
  * 请编写一个函数，其功能是将输入的字符串反转过来。

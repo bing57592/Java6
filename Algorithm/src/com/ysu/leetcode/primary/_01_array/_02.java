@@ -1,4 +1,4 @@
-package com.ysu.leetcode.primary.array;
+package com.ysu.leetcode.primary._01_array;
 
 import com.ysu.myutil.MyStringUtil;
 
