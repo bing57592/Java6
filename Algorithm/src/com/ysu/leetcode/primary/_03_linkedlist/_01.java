@@ -6,7 +6,7 @@
  */
 package com.ysu.leetcode.primary._03_linkedlist;
 
-import com.ysu.leetcode.primary._00_Domain.ListNode;
+import com.ysu.leetcode.primary._00_domain.ListNode;
 
 /**
  * 请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点。
@@ -24,14 +24,13 @@ public class _01 {
         node3.setVal(1);
         node4.setVal(9);
         node1.setNext(node2.setNext(node3.setNext(node4)));
+        code_1(node3);
+
 
     }
 
     public static void code_1(ListNode node) {
 
-
-
-        return;
     }
 
 }
