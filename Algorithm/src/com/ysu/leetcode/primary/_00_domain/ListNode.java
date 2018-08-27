@@ -10,10 +10,10 @@ package com.ysu.leetcode.primary._00_domain;
  * Created by 陈宪东 on 2018/8/15 15:47
  */
 public class ListNode {
-    public int val;
+    public Integer val;
     public ListNode next;
 
-    public int getVal() {
+    public Integer getVal() {
         return val;
     }
 
@@ -28,10 +28,6 @@ public class ListNode {
     public ListNode setNext(ListNode next) {
         this.next = next;
         return this;
-    }
-
-    public ListNode() {
-
     }
 
     public ListNode(int x) {

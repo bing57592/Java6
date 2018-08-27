@@ -15,14 +15,10 @@ import com.ysu.leetcode.primary._00_domain.ListNode;
  */
 public class _01 {
     public static void main(String[] args) {
-        ListNode node1 = new ListNode();
-        ListNode node2 = new ListNode();
-        ListNode node3 = new ListNode();
-        ListNode node4 = new ListNode();
-        node1.setVal(4);
-        node2.setVal(5);
-        node3.setVal(1);
-        node4.setVal(9);
+        ListNode node1 = new ListNode(4);
+        ListNode node2 = new ListNode(5);
+        ListNode node3 = new ListNode(1);
+        ListNode node4 = new ListNode(9);
         node1.setNext(node2.setNext(node3.setNext(node4)));
         code_1(node3);
 

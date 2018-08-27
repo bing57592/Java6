@@ -16,35 +16,50 @@ import com.ysu.leetcode.primary._00_domain.ListNode;
 public class _04 {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(3);
+//        ListNode node2 = new ListNode(2);
+//        ListNode node3 = new ListNode(3);
 
-        ListNode node4 = new ListNode(1);
-        ListNode node5 = new ListNode(2);
-        ListNode node6 = new ListNode(4);
+//        ListNode node4 = new ListNode(1);
+//        ListNode node5 = new ListNode(2);
+//        ListNode node6 = new ListNode(4);
 
-        node1.setNext(node2.setNext(node3));
-
-        node4.setNext(node5.setNext(node6));
-        ListNode listNode = code_1(node1, node4);
+//        node1.setNext(node2.setNext(node3));
+//
+//        node4.setNext(node5.setNext(node6));
+        ListNode listNode = code_1(node1, null);
 
         System.out.println(listNode);
 
     }
 
     public static ListNode code_1(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode();
-        ListNode now = new ListNode();
-        while (l1 != null || l2 != null) {// 只要有一个链表没有撸完, 就需要做如下操作.
-            if (l1.val <= l2.val) {
-                now = l1;
-                now.next = now;
-            } else {
-                now = l2;
-                now.next = now;
+        ListNode listNode = new ListNode(0);
+        ListNode head = listNode;
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {//l1 的值比l2 的值小.
+                listNode.next = new ListNode(l1.val);
+                listNode = listNode.next;
+                l1 = l1.next;
+            } else {//l1 的值比l2 的值大.
+                listNode.next = new ListNode(l2.val);
+                listNode = listNode.next;
+                l2 = l2.next;
+            }
+        }// 当某一个链表被撸完之后. 另一个链表直接连过去.
+        if (l1 == null) {// l1先被撸完了, 撸l2
+            while (l2 != null) {
+                listNode.next = new ListNode(l2.val);
+                listNode = listNode.next;
+                l2 = l2.next;
+            }
+        } else {// l2先被撸完了, 撸l1
+            while (l1 != null) {
+                listNode.next = new ListNode(l1.val);
+                listNode = listNode.next;
+                l1 = l1.next;
             }
         }
 
-        return listNode;
+        return head.next;
     }
 }
