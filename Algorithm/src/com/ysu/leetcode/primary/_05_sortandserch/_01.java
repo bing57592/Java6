@@ -4,7 +4,7 @@
  * 警告：本计算机程序受著作权法和国际公约的保护，未经授权擅自复制或散布本程序的部分或全部、以及其他
  * 任何侵害著作权人权益的行为，将承受严厉的民事和刑事处罚，对已知的违反者将给予法律范围内的全面制裁。
  */
-package com.ysu.leetcode.primary.sortandserch;
+package com.ysu.leetcode.primary._05_sortandserch;
 
 /**
  * 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
