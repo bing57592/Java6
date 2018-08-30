@@ -1,6 +1,8 @@
 package com.ysu.myutil;
 
 
+import org.junit.Test;
+
 public class MyArrayUtil {
 
     public static void ergodicArray(int[] nums) {
@@ -14,5 +16,17 @@ public class MyArrayUtil {
         }
         System.out.print("}");
         System.out.println();
+    }
+
+
+    @Test
+    public void test1() {
+        System.out.println(mul(5));
+    }
+
+    public int mul(int n) {
+        if (n == 1) return 1;
+
+        return n * mul(n - 1);
     }
 }
