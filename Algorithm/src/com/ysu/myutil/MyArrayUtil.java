@@ -3,6 +3,8 @@ package com.ysu.myutil;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class MyArrayUtil {
 
     public static void ergodicArray(int[] nums) {
@@ -16,6 +18,11 @@ public class MyArrayUtil {
         }
         System.out.print("}");
         System.out.println();
+    }
+
+    public static int[] sortArray(int nums[]) {
+        Arrays.sort(nums);
+        return nums;
     }
 
 
